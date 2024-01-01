@@ -6,7 +6,7 @@ import { BrowserRouter,Route,Routes} from "react-router-dom";
 
 function App() {
   return <>
-  <BrowserRouter>
+  <BrowserRouter basename="/ems-frontend">
     <HeaderComponent/>
     <Routes>
         {/* // http://localhost:3000 */}
